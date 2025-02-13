@@ -1,0 +1,27 @@
+nav a {
+    margin: 15px;
+    text-decoration: none;
+    color: #333; /* Dark grey text color for better readability */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px; /* Increased padding for a more balanced box */
+    border: 2px solid #333; /* Dark grey border */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Smooth transitions */
+    display: inline-block; /* Ensures the box is properly aligned */
+}
+
+nav a:hover {
+    background-color: #333; /* Dark background on hover */
+    color: white; /* White text color on hover */
+    transform: translateY(-3px); /* Slight lift effect on hover */
+}
+
+nav a:active {
+    transform: translateY(0); /* Returns to normal position when clicked */
+}
+
+nav a:focus {
+    outline: none; /* Removes default focus outline */
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow to focus state */
+}
